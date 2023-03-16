@@ -19,6 +19,7 @@
   "platforms": {
     "ios": "11.0"
   },
+  "prepare_command": "# 创建UMShare Module\nrm -rf MJExceptionReportKit/UMengSDK/UMShare.framework/Modules\nmkdir MJExceptionReportKit/UMengSDK/UMShare.framework/Modules\ntouch MJExceptionReportKit/UMengSDK/UMShare.framework//Modules/module.modulemap\ncat <<-EOF > MJExceptionReportKit/UMengSDK/UMShare.framework//Modules/module.modulemap\nframework module UMShare {\n  umbrella header \"UMShare.h\"\n  export *\n  link \"c++\"\n  link \"sqlite3\"\n  link \"z\"\n}\nEOF\n\n# 创建UMCommon Module\n# 先删除路径下 Modules 文件夹\nrm -rf MJExceptionReportKit/UMengSDK/UMCommon.framework/Modules\n# 再创建路径下 Modules 文件夹\nmkdir MJExceptionReportKit/UMengSDK/UMCommon.framework/Modules\n# 再生成 module.modulemap 文件\ntouch MJExceptionReportKit/UMengSDK/UMCommon.framework//Modules/module.modulemap\n#\ncat <<-EOF > MJExceptionReportKit/UMengSDK/UMCommon.framework//Modules/module.modulemap\n# 将framework 转化成模块形式 module\nframework module UMCommon {\n  # 在pod...umbrella.h 中导入头文件\n  umbrella header \"UMCommon.h\"\n  # 导出\n  export *\n  # 链接依赖的系统静态库\n  link \"c++\"\n  link \"sqlite3\"\n  link \"z\"\n}\n# 文件结束符\nEOF",
   "subspecs": [
     {
       "name": "Core",
@@ -49,6 +50,30 @@
     {
       "name": "Products",
       "vendored_frameworks": "MJExceptionReportKit/Products/MJExceptionReport.framework"
+    },
+    {
+      "name": "UMengSDK",
+      "frameworks": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "WebKit",
+        "ImageIO",
+        "Photos"
+      ],
+      "libraries": [
+        "c++",
+        "sqlite3",
+        "z"
+      ],
+      "resources": [
+        "MJExceptionReportKit/UMengSDK/SocialLibraries/**/*.bundle"
+      ],
+      "vendored_frameworks": [
+        "MJExceptionReportKit/UMengSDK/**/*.framework"
+      ],
+      "vendored_libraries": [
+        "MJExceptionReportKit/UMengSDK/SocialLibraries/**/*.a"
+      ]
     }
   ]
 }

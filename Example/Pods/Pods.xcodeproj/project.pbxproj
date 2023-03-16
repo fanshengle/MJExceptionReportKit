@@ -7,162 +7,191 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01954C43A651DD0740ABFE66CE72C7B4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A47A043723276C09A57FB9988FD01F /* CoreTelephony.framework */; };
-		0BE1E98D9B3A8F6FB2AC00117F413248 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D835C4D8ED42F5E111554D900B24530 /* Security.framework */; };
+		0DEFA6FE4B6ED40C83CB7195BDCB6D14 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD294B9AB1954812FEE4AE1646ACF21C /* Security.framework */; };
+		13C79FB5350E3D4A472FF51A5FBBBBF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BADB28389B24CDCA07C060B2796DF9 /* CoreGraphics.framework */; };
+		15DFE4ECDC4FD0CF17940E0CA7A4B846 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36173B0004EF10C2E823AB4FEEAFF455 /* WebKit.framework */; };
+		160A2C87541DB99176C61AFB0A91FAB7 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6387037CBEC27B12E8E1BF19D8D80E /* ImageIO.framework */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2704D1086ABC056BDD6F2640E66DF756 /* MJExceptionReportKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A0463F43F12B1AB88219C0121FE37F /* MJExceptionReportKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2760E1065BFE16A8E5F0C6AE94360F5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC77F30C3E0AD4EFD308307BB8D6238 /* QuartzCore.framework */; };
+		2175E0E8A83ABE93FC173C09AAD7BEB4 /* MJExceptionReportKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E519AA467F6343D313178DE26F041873 /* MJExceptionReportKit-dummy.m */; };
+		256AF273068B8CEEF61371420DB3B36A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD92F3BA3181BB34C0E8FAA15EBC1335 /* OpenGLES.framework */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAF08940B2F360943EE0008E3241966 /* Foundation.framework */; };
+		2CCE45F461B8AE18C6ABF3ADBDB87FE3 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 929608364614B7BFB544315134780469 /* WeiboSDK.bundle */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794E38D1B88BAAC192BCBC48560EB310 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		35335342AB1CBE66ADB94D673ABFDD96 /* Pods-MJExceptionReportKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF5561ED7B67E36ABD603BC1F64552 /* Pods-MJExceptionReportKit_Tests-dummy.m */; };
 		35EB7C4F7BF0E279B977680CBF44A33D /* Pods-MJExceptionReportKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA53F4BB05CAED76705832BFC5E63277 /* Pods-MJExceptionReportKit_Example-dummy.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3874C5D90182D4C5C23342EF52A355EC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13CB58E48B375821FAB187BB72F624 /* OpenGLES.framework */; };
-		4DFBC25D0343DB8F1AFC8B8BF0AD1A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAF08940B2F360943EE0008E3241966 /* Foundation.framework */; };
+		4075DFF3E2FBB3288C88ED72F8158350 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762FF6DEB3E75D5F8669B5F3A45C302B /* SystemConfiguration.framework */; };
+		4DFBC25D0343DB8F1AFC8B8BF0AD1A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794E38D1B88BAAC192BCBC48560EB310 /* Foundation.framework */; };
+		4EC956D0AA45452C0A88F30281730E03 /* MJExceptionReportKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1A6763C9537CD9BCFE405F0771D6A0 /* MJExceptionReportKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51FE5A410EAE2BD21B252E3F56B66FF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF2F91CBD2A2212246ADB7A81BF5C57 /* CoreLocation.framework */; };
+		52CE4296A02F3F9925F43A260C80662C /* MJExceptionReportKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFEE41711C950D277BF6DDC0E582B2 /* MJExceptionReportKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56C9625413AA20F9FFAD3FF803906688 /* MJAnimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2FD13183E3B5EB79E3B6BB5C41517F /* MJAnimal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		5FBE50DA0C9BC7CC0D83658DC5F47CF3 /* MJExceptionReportKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 395E5203A562858B9F7F4E8664819560 /* MJExceptionReportKit-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7247EBCFA7A68B139EC588EE6EB1CE10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C07251798FE91F571FC55493120D76 /* CoreLocation.framework */; };
+		6C2DC56A65B0DF47E677EFCF1F755DE7 /* MJAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C9AC4F833DF08913DBB62932DA7C83 /* MJAnimal.m */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		7C111EB341D30BAB96826B94D0A423FB /* MJAnimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8623B81A97C856747567B10420D6F646 /* MJAnimal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A66D4CA0FC8F3605328061BF2A45616 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4760AB5DDBB78140E5534087E1DE9B64 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		7E4C88DAE00B3791D4AE7CC394E38531 /* MJExceptionReportKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1642AE3DCDDEED138341BD9FDEE0D007 /* MJExceptionReportKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A69C7834CBA9349E58DFF880A14CC88 /* UIKit.framework */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9333247EA4CF94EB931F44C1652E13 /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		933644167728889B13D7CF8522B295CB /* Pods-MJExceptionReportKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 406CA9DA2123849A16A8C47B6D08CB80 /* Pods-MJExceptionReportKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A55F1A27470AC58F0C1AFB11385A22E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CA2A65865A517E9A9A9B99FE1BA1F5 /* CoreGraphics.framework */; };
-		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DFF30A7F4102842A58ED94965E9A86 /* XCTest.framework */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EA201D34B53BA3ED90EC356F9B5F65 /* XCTest.framework */; };
+		A058D6F749DCEBE64AF801562465193F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3536361AE6626B24F434645D5E8C38B /* QuartzCore.framework */; };
+		A4166BBD347F28AC384A2E564EE7915A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C91AA3300AE70664E98D6B71017449 /* CoreTelephony.framework */; };
 		A7E909913D8296267EBC673458A736CC /* Pods-MJExceptionReportKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 113FD4C6D698D4717C3DC68D3897D0C3 /* Pods-MJExceptionReportKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		BB58D36145BD3C4576B6C393E7EACE49 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89756DFF517E45BFFC72E6F6A41C4225 /* Photos.framework */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC77F30C3E0AD4EFD308307BB8D6238 /* QuartzCore.framework */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3536361AE6626B24F434645D5E8C38B /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		CFD48D49D39DA55E6ADCE8A7FE743022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAF08940B2F360943EE0008E3241966 /* Foundation.framework */; };
-		E4F60AAD101C07D0158BE0E581216BAF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC282901F2C66484C58F4A62CF960378 /* SystemConfiguration.framework */; };
-		EE53F153E23AA9448D27873761F00C5C /* MJAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE0FDBB1C22039BE3410198B644E969 /* MJAnimal.m */; };
-		FBCDBB481DDFF2C45DB5BFD299FAB61E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAF08940B2F360943EE0008E3241966 /* Foundation.framework */; };
+		CFD48D49D39DA55E6ADCE8A7FE743022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794E38D1B88BAAC192BCBC48560EB310 /* Foundation.framework */; };
+		EC5DD44B498871D692C4D4C1B65AE10C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794E38D1B88BAAC192BCBC48560EB310 /* Foundation.framework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7369D1A138D9DCE4B2E0098D7B10EA7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 382D966507BB4CE2780EB52C7E89B804;
-			remoteInfo = MJExceptionReportKit;
-		};
-		D1E7D8AF9AD357DABC26DD56E6C51EF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		DC6AE4FC7214E20C1BB4C4CD2E70BE91 /* PBXContainerItemProxy */ = {
+		63A3880FF47DE2C72D4B20F2DF21FFDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9057C3FA0A034FBED9108AEA31C0A877;
 			remoteInfo = "Pods-MJExceptionReportKit_Example";
 		};
+		6D11A9EF699D9ECD28DC47740E563F9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		AB54E588B8B8BDFD200BAE60B3E2E779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 382D966507BB4CE2780EB52C7E89B804;
+			remoteInfo = MJExceptionReportKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B53CFA55209464D51EF009D9E91BEAA /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = MJExceptionReportKit/BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		02DEA0FBECAF01AF7CAB917752B3DD74 /* MJExceptionReportKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExceptionReportKit.debug.xcconfig; sourceTree = "<group>"; };
+		082115D554B83D007B5846AFBC5852DA /* MJExceptionReportKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExceptionReportKit.release.xcconfig; sourceTree = "<group>"; };
+		08C9AC4F833DF08913DBB62932DA7C83 /* MJAnimal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJAnimal.m; path = MJExceptionReportKit/Classes/MJAnimal.m; sourceTree = "<group>"; };
+		0A9333247EA4CF94EB931F44C1652E13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B2FD13183E3B5EB79E3B6BB5C41517F /* MJAnimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJAnimal.h; path = MJExceptionReportKit/Classes/MJAnimal.h; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		100EE41C2DC8EFF7BAD81010ADBAACC3 /* Pods-MJExceptionReportKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJExceptionReportKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10789023E49A2B44CAB94E2A71F83F1B /* libSocialSina.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSina.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Sina/libSocialSina.a; sourceTree = "<group>"; };
 		113FD4C6D698D4717C3DC68D3897D0C3 /* Pods-MJExceptionReportKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJExceptionReportKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		14DFF30A7F4102842A58ED94965E9A86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14A7E8A4138417CA19BA4D0BE5FC7AFF /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Facebook/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		15D6E090E231AD73DB83F6FF0ACC0F88 /* Pods-MJExceptionReportKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJExceptionReportKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1642AE3DCDDEED138341BD9FDEE0D007 /* MJExceptionReportKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExceptionReportKit-umbrella.h"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1E691F6F65A04B3BCC9D21DE99B35E93 /* MJExceptionReportKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExceptionReportKit.release.xcconfig; sourceTree = "<group>"; };
+		1DB317AA646B2030869322D1EBB7D1CE /* MJExceptionReportKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExceptionReportKit-prefix.pch"; sourceTree = "<group>"; };
 		1EAF5561ED7B67E36ABD603BC1F64552 /* Pods-MJExceptionReportKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJExceptionReportKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		212A139767FE35D1C27A87ADE1FEEEB8 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		24E6A85440C1999D821F09DE01503427 /* Pods-MJExceptionReportKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJExceptionReportKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		24ED2A54E960D6AFD07CA18D99C4DC4F /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = MJExceptionReportKit/UMengSDK/UMCommon.framework; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		2EAF08940B2F360943EE0008E3241966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		28FF1C220508C4917773C58E37EC0228 /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		2A6387037CBEC27B12E8E1BF19D8D80E /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		2E3D47A422C4B796D0FD947F080EB816 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		346AB7AB9EDE7D00B4F38936A8E31109 /* Pods-MJExceptionReportKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJExceptionReportKit_Tests.modulemap"; sourceTree = "<group>"; };
 		360FA3550148EA3ECFC60D9B693E61DD /* Pods-MJExceptionReportKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJExceptionReportKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		37CA2A65865A517E9A9A9B99FE1BA1F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		395E5203A562858B9F7F4E8664819560 /* MJExceptionReportKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExceptionReportKit-dummy.m"; sourceTree = "<group>"; };
-		3BFEA4BBD740595FBB0635D787812A96 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = MJExceptionReportKit/BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
-		3D835C4D8ED42F5E111554D900B24530 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		36173B0004EF10C2E823AB4FEEAFF455 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		38C91AA3300AE70664E98D6B71017449 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		3A43EBAC3095AA1E9E6F16AE0F7196A7 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4044FF849EE9D530D6EB065D20D9D4F4 /* MJExceptionReportKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExceptionReportKit.modulemap; sourceTree = "<group>"; };
 		406CA9DA2123849A16A8C47B6D08CB80 /* Pods-MJExceptionReportKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJExceptionReportKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40B53DAAA94D3758E6C77A0AC6EBECE6 /* Pods-MJExceptionReportKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJExceptionReportKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		40E92A60AF2780A83D0A9E8F0872A53B /* MJExceptionReportKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExceptionReportKit; path = MJExceptionReportKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4760AB5DDBB78140E5534087E1DE9B64 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		4AAFC2786288E908F92E5CEAA6BD9598 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = MJExceptionReportKit/UMengSDK/SocialLibraries/QQ/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4EADAF9BDDD2275855235D596B7E4A91 /* Pods-MJExceptionReportKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJExceptionReportKit_Example-Info.plist"; sourceTree = "<group>"; };
-		58A47A043723276C09A57FB9988FD01F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		5A69C7834CBA9349E58DFF880A14CC88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5A7A26C95D89FE8ED3BA8724F374F92E /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		5090791D4E8AD78ED1C84C924ACB6E61 /* MJExceptionReportKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExceptionReportKit-Info.plist"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63A0463F43F12B1AB88219C0121FE37F /* MJExceptionReportKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExceptionReportKit.h; path = MJExceptionReportKit/Classes/MJExceptionReportKit.h; sourceTree = "<group>"; };
-		647E7453E71BF2D0A66EDDD326BCA622 /* MJExceptionReportKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExceptionReportKit.modulemap; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6E860D96DC872BECB513EF2749CAB076 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		72EFEE41711C950D277BF6DDC0E582B2 /* MJExceptionReportKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExceptionReportKit-umbrella.h"; sourceTree = "<group>"; };
+		74BADB28389B24CDCA07C060B2796DF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		762FF6DEB3E75D5F8669B5F3A45C302B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		794E38D1B88BAAC192BCBC48560EB310 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B2F4284A2F9BA85B784F136F78BAF8E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Facebook/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		83C07251798FE91F571FC55493120D76 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		8623B81A97C856747567B10420D6F646 /* MJAnimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJAnimal.h; path = MJExceptionReportKit/Classes/MJAnimal.h; sourceTree = "<group>"; };
+		813633207CD2E6D3CC6FFC17C92B495C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		83D89CD6EFA6C6BC73AB924C9615311E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		848DAF85EAEAE6C346663556AEB6AC42 /* MJExceptionReportKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJExceptionReportKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86B8BE9BE7D58EA5386C51F4C67AF011 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Facebook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		88B6444A672EF51D3B35CF0E12E047FD /* MJExceptionReportKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExceptionReportKit-prefix.pch"; sourceTree = "<group>"; };
 		88C4CF84F666EEAC60AB2B85D5826B8F /* Pods-MJExceptionReportKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJExceptionReportKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8928E7B56871EAB2440B1BF7DC0029D0 /* MJExceptionReportKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExceptionReportKit.debug.xcconfig; sourceTree = "<group>"; };
+		89756DFF517E45BFFC72E6F6A41C4225 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
 		8B5131222C14F8DAE77E380A256BBD98 /* Pods-MJExceptionReportKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MJExceptionReportKit_Example"; path = Pods_MJExceptionReportKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		91BF913202DAAE98AA7B0BF55BA7339B /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = MJExceptionReportKit/BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		929608364614B7BFB544315134780469 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		92A890A6C2B39C712FCFAB7F3486CE84 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		9625E27D60C82A284D40CFC9E84A0697 /* Pods-MJExceptionReportKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJExceptionReportKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		96E13E32F6CAAC201B674CA9532EF56D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D4FB3C666A331A8B93AFBA76782B702 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Facebook/Bolts.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3536361AE6626B24F434645D5E8C38B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A781F41539CB6895CF3EF41E7728D641 /* Pods-MJExceptionReportKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJExceptionReportKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		ABC77F30C3E0AD4EFD308307BB8D6238 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AB1A6763C9537CD9BCFE405F0771D6A0 /* MJExceptionReportKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExceptionReportKit.h; path = MJExceptionReportKit/Classes/MJExceptionReportKit.h; sourceTree = "<group>"; };
+		AC29E0A742BE3FEB6767124C83B96CD4 /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialOfficialWeChat.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B4010E27807DD677878B744FB7C5D18D /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		B4144AF8EE86BF1C71D050C3CF48A2B9 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Sina/SinaSDK/libWeiboSDK.a; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BA8F3D322DB26D6223B826DC16BE6484 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJExceptionReportKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB13CB58E48B375821FAB187BB72F624 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		BDAF4DD6AF1B277CBD9B8E91A91000A9 /* Pods-MJExceptionReportKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MJExceptionReportKit_Tests"; path = Pods_MJExceptionReportKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF1B87C6DF405E4427416708ED4C7EAB /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CDE0FDBB1C22039BE3410198B644E969 /* MJAnimal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJAnimal.m; path = MJExceptionReportKit/Classes/MJAnimal.m; sourceTree = "<group>"; };
+		CD294B9AB1954812FEE4AE1646ACF21C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CD92F3BA3181BB34C0E8FAA15EBC1335 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D47FAD93D4A1C9F9E306A7E574D5E775 /* MJExceptionReportKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MJExceptionReportKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0F09C97629866C7C713DFA6DB44E2AD /* libSocialFacebook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialFacebook.a; path = MJExceptionReportKit/UMengSDK/SocialLibraries/Facebook/libSocialFacebook.a; sourceTree = "<group>"; };
+		D52717DB320EAA5A80CC3DA7C91C6482 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 		D54DDDA58D6BF825857A2268A89D27B0 /* Pods-MJExceptionReportKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJExceptionReportKit_Example.modulemap"; sourceTree = "<group>"; };
+		D6FFE20B7F78C92154B211ABAEE7F90C /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = MJExceptionReportKit/BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		D826E267760ABFA4DF690E9CF6E6C86C /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = MJExceptionReportKit/UMengSDK/UMDevice.framework; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D8C0F4692D53809C19784A359BA2F249 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = MJExceptionReportKit/BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
 		E07ED5D6F944538A46B6227645A61997 /* Pods-MJExceptionReportKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJExceptionReportKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E2976DA4C09F2A9AACBE3482AAF7DE62 /* MJExceptionReportKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExceptionReportKit-Info.plist"; sourceTree = "<group>"; };
+		E519AA467F6343D313178DE26F041873 /* MJExceptionReportKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExceptionReportKit-dummy.m"; sourceTree = "<group>"; };
 		EA53F4BB05CAED76705832BFC5E63277 /* Pods-MJExceptionReportKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJExceptionReportKit_Example-dummy.m"; sourceTree = "<group>"; };
-		EB134D4C236F1C65838ECAFB621B391A /* MJExceptionReport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJExceptionReport.framework; path = MJExceptionReportKit/Products/MJExceptionReport.framework; sourceTree = "<group>"; };
+		EB17CA2B45617EA3E9C386AA50B38D23 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = MJExceptionReportKit/UMengSDK/UMShare.framework; sourceTree = "<group>"; };
+		EDF2F91CBD2A2212246ADB7A81BF5C57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		F3EA201D34B53BA3ED90EC356F9B5F65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F4CCB485A715B87AAC1F7CB71E40F7D9 /* Pods-MJExceptionReportKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJExceptionReportKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC282901F2C66484C58F4A62CF960378 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		FFB310613DBE317785C4E1FD2CEC99F6 /* MJExceptionReport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJExceptionReport.framework; path = MJExceptionReportKit/Products/MJExceptionReport.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1EB29E5F09C9C43F2E693160445593DE /* Frameworks */ = {
+		3AFAE48169A3545AC53DEB6D37FDD366 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A55F1A27470AC58F0C1AFB11385A22E /* CoreGraphics.framework in Frameworks */,
-				7247EBCFA7A68B139EC588EE6EB1CE10 /* CoreLocation.framework in Frameworks */,
-				01954C43A651DD0740ABFE66CE72C7B4 /* CoreTelephony.framework in Frameworks */,
-				FBCDBB481DDFF2C45DB5BFD299FAB61E /* Foundation.framework in Frameworks */,
-				3874C5D90182D4C5C23342EF52A355EC /* OpenGLES.framework in Frameworks */,
-				2760E1065BFE16A8E5F0C6AE94360F5D /* QuartzCore.framework in Frameworks */,
-				0BE1E98D9B3A8F6FB2AC00117F413248 /* Security.framework in Frameworks */,
-				E4F60AAD101C07D0158BE0E581216BAF /* SystemConfiguration.framework in Frameworks */,
+				13C79FB5350E3D4A472FF51A5FBBBBF9 /* CoreGraphics.framework in Frameworks */,
+				51FE5A410EAE2BD21B252E3F56B66FF3 /* CoreLocation.framework in Frameworks */,
+				A4166BBD347F28AC384A2E564EE7915A /* CoreTelephony.framework in Frameworks */,
+				EC5DD44B498871D692C4D4C1B65AE10C /* Foundation.framework in Frameworks */,
+				160A2C87541DB99176C61AFB0A91FAB7 /* ImageIO.framework in Frameworks */,
+				256AF273068B8CEEF61371420DB3B36A /* OpenGLES.framework in Frameworks */,
+				BB58D36145BD3C4576B6C393E7EACE49 /* Photos.framework in Frameworks */,
+				A058D6F749DCEBE64AF801562465193F /* QuartzCore.framework in Frameworks */,
+				0DEFA6FE4B6ED40C83CB7195BDCB6D14 /* Security.framework in Frameworks */,
+				4075DFF3E2FBB3288C88ED72F8158350 /* SystemConfiguration.framework in Frameworks */,
+				15DFE4ECDC4FD0CF17940E0CA7A4B846 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,20 +225,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FE445AD883B9ABD3E0241A05A5B79FD /* Frameworks */ = {
+		1BA4B47F1418905DB3EE5855EA1F7ED5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5215354EF591E6077C68294198184DAB /* iOS */,
+				74BADB28389B24CDCA07C060B2796DF9 /* CoreGraphics.framework */,
+				EDF2F91CBD2A2212246ADB7A81BF5C57 /* CoreLocation.framework */,
+				38C91AA3300AE70664E98D6B71017449 /* CoreTelephony.framework */,
+				794E38D1B88BAAC192BCBC48560EB310 /* Foundation.framework */,
+				2A6387037CBEC27B12E8E1BF19D8D80E /* ImageIO.framework */,
+				CD92F3BA3181BB34C0E8FAA15EBC1335 /* OpenGLES.framework */,
+				89756DFF517E45BFFC72E6F6A41C4225 /* Photos.framework */,
+				A3536361AE6626B24F434645D5E8C38B /* QuartzCore.framework */,
+				CD294B9AB1954812FEE4AE1646ACF21C /* Security.framework */,
+				762FF6DEB3E75D5F8669B5F3A45C302B /* SystemConfiguration.framework */,
+				0A9333247EA4CF94EB931F44C1652E13 /* UIKit.framework */,
+				36173B0004EF10C2E823AB4FEEAFF455 /* WebKit.framework */,
+				F3EA201D34B53BA3ED90EC356F9B5F65 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		35E526B6E4CA6A7E89FE8C5A5B1F2259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA4B47F1418905DB3EE5855EA1F7ED5 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		315DF4BD04475DF505A36B42AFF382DD /* Products */ = {
+		393F8468C87C31E22A073FC709098FFD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5971404A7FA1ABBC04037999D5F14C19 /* Frameworks */,
+				83D89CD6EFA6C6BC73AB924C9615311E /* LICENSE */,
+				848DAF85EAEAE6C346663556AEB6AC42 /* MJExceptionReportKit.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4861A602DE28E4736F1E98FB34B7D069 /* Targets Support Files */ = {
@@ -242,44 +292,12 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5215354EF591E6077C68294198184DAB /* iOS */ = {
+		6BAE83DDA560624BCC9DEEBBCCDC0918 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				37CA2A65865A517E9A9A9B99FE1BA1F5 /* CoreGraphics.framework */,
-				83C07251798FE91F571FC55493120D76 /* CoreLocation.framework */,
-				58A47A043723276C09A57FB9988FD01F /* CoreTelephony.framework */,
-				2EAF08940B2F360943EE0008E3241966 /* Foundation.framework */,
-				BB13CB58E48B375821FAB187BB72F624 /* OpenGLES.framework */,
-				ABC77F30C3E0AD4EFD308307BB8D6238 /* QuartzCore.framework */,
-				3D835C4D8ED42F5E111554D900B24530 /* Security.framework */,
-				FC282901F2C66484C58F4A62CF960378 /* SystemConfiguration.framework */,
-				5A69C7834CBA9349E58DFF880A14CC88 /* UIKit.framework */,
-				14DFF30A7F4102842A58ED94965E9A86 /* XCTest.framework */,
+				BEC289753E65E33EE8CC4ACCDFE5AE01 /* MJExceptionReportKit */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5971404A7FA1ABBC04037999D5F14C19 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB134D4C236F1C65838ECAFB621B391A /* MJExceptionReport.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		644B266DB351B0F09A054CEF52DC5ABD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				647E7453E71BF2D0A66EDDD326BCA622 /* MJExceptionReportKit.modulemap */,
-				395E5203A562858B9F7F4E8664819560 /* MJExceptionReportKit-dummy.m */,
-				E2976DA4C09F2A9AACBE3482AAF7DE62 /* MJExceptionReportKit-Info.plist */,
-				88B6444A672EF51D3B35CF0E12E047FD /* MJExceptionReportKit-prefix.pch */,
-				1642AE3DCDDEED138341BD9FDEE0D007 /* MJExceptionReportKit-umbrella.h */,
-				8928E7B56871EAB2440B1BF7DC0029D0 /* MJExceptionReportKit.debug.xcconfig */,
-				1E691F6F65A04B3BCC9D21DE99B35E93 /* MJExceptionReportKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MJExceptionReportKit";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		805BBDAD067A3F50FF6F161D2E021C4C /* Pods-MJExceptionReportKit_Tests */ = {
@@ -299,6 +317,21 @@
 			path = "Target Support Files/Pods-MJExceptionReportKit_Tests";
 			sourceTree = "<group>";
 		};
+		8C78DD28DAD7A022DDBC94FD6838703E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4044FF849EE9D530D6EB065D20D9D4F4 /* MJExceptionReportKit.modulemap */,
+				E519AA467F6343D313178DE26F041873 /* MJExceptionReportKit-dummy.m */,
+				5090791D4E8AD78ED1C84C924ACB6E61 /* MJExceptionReportKit-Info.plist */,
+				1DB317AA646B2030869322D1EBB7D1CE /* MJExceptionReportKit-prefix.pch */,
+				72EFEE41711C950D277BF6DDC0E582B2 /* MJExceptionReportKit-umbrella.h */,
+				02DEA0FBECAF01AF7CAB917752B3DD74 /* MJExceptionReportKit.debug.xcconfig */,
+				082115D554B83D007B5846AFBC5852DA /* MJExceptionReportKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MJExceptionReportKit";
+			sourceTree = "<group>";
+		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,46 +340,24 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		9B3A690A7B52F67A49F2D31848B0E240 /* Development Pods */ = {
+		9DBE7B7BCC9031EDAC5B462718922767 /* QQSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A663538B7CF78FFE9785D8FC47FBAC03 /* MJExceptionReportKit */,
+				4760AB5DDBB78140E5534087E1DE9B64 /* TencentOpenApi_IOS_Bundle.bundle */,
 			);
-			name = "Development Pods";
+			name = QQSDK;
+			path = QQSDK;
 			sourceTree = "<group>";
 		};
-		9E028061461244AD514BE5B17BCE2632 /* BaiduMapKit */ = {
+		B1584C52CB0CAC7A78ADC2A278ADF776 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFB7AAF50900E509038CA0FAC62AD31C /* Frameworks */,
-			);
-			name = BaiduMapKit;
-			sourceTree = "<group>";
-		};
-		A663538B7CF78FFE9785D8FC47FBAC03 /* MJExceptionReportKit */ = {
-			isa = PBXGroup;
-			children = (
-				8623B81A97C856747567B10420D6F646 /* MJAnimal.h */,
-				CDE0FDBB1C22039BE3410198B644E969 /* MJAnimal.m */,
-				63A0463F43F12B1AB88219C0121FE37F /* MJExceptionReportKit.h */,
-				9E028061461244AD514BE5B17BCE2632 /* BaiduMapKit */,
-				F219C77423F73B80E60571947E4125D1 /* Pod */,
-				315DF4BD04475DF505A36B42AFF382DD /* Products */,
-				644B266DB351B0F09A054CEF52DC5ABD /* Support Files */,
-			);
-			name = MJExceptionReportKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		AFB7AAF50900E509038CA0FAC62AD31C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A7A26C95D89FE8ED3BA8724F374F92E /* BaiduMapAPI_Base.framework */,
-				BF1B87C6DF405E4427416708ED4C7EAB /* BaiduMapAPI_Map.framework */,
-				B4010E27807DD677878B744FB7C5D18D /* BaiduMapAPI_Search.framework */,
-				212A139767FE35D1C27A87ADE1FEEEB8 /* BaiduMapAPI_Utils.framework */,
-				0B53CFA55209464D51EF009D9E91BEAA /* libcrypto.a */,
-				3BFEA4BBD740595FBB0635D787812A96 /* libssl.a */,
+				2E3D47A422C4B796D0FD947F080EB816 /* BaiduMapAPI_Base.framework */,
+				D52717DB320EAA5A80CC3DA7C91C6482 /* BaiduMapAPI_Map.framework */,
+				D8C0F4692D53809C19784A359BA2F249 /* BaiduMapAPI_Search.framework */,
+				92A890A6C2B39C712FCFAB7F3486CE84 /* BaiduMapAPI_Utils.framework */,
+				91BF913202DAAE98AA7B0BF55BA7339B /* libcrypto.a */,
+				D6FFE20B7F78C92154B211ABAEE7F90C /* libssl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -377,12 +388,68 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
+		BEC289753E65E33EE8CC4ACCDFE5AE01 /* MJExceptionReportKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B2FD13183E3B5EB79E3B6BB5C41517F /* MJAnimal.h */,
+				08C9AC4F833DF08913DBB62932DA7C83 /* MJAnimal.m */,
+				AB1A6763C9537CD9BCFE405F0771D6A0 /* MJExceptionReportKit.h */,
+				DD268246ADDDD01A76DBC392D1DE8D66 /* BaiduMapKit */,
+				393F8468C87C31E22A073FC709098FFD /* Pod */,
+				F6B42C19AACECEBFC3A14B69B74E0DFE /* Products */,
+				8C78DD28DAD7A022DDBC94FD6838703E /* Support Files */,
+				DA83888A0D14831FEDC82C57E0D38182 /* UMengSDK */,
+			);
+			name = MJExceptionReportKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C6665D524D799055948EDAF35A88CD82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D4FB3C666A331A8B93AFBA76782B702 /* Bolts.framework */,
+				6E860D96DC872BECB513EF2749CAB076 /* FBSDKCoreKit.framework */,
+				86B8BE9BE7D58EA5386C51F4C67AF011 /* FBSDKLoginKit.framework */,
+				14A7E8A4138417CA19BA4D0BE5FC7AFF /* FBSDKMessengerShareKit.framework */,
+				7B2F4284A2F9BA85B784F136F78BAF8E /* FBSDKShareKit.framework */,
+				D0F09C97629866C7C713DFA6DB44E2AD /* libSocialFacebook.a */,
+				AC29E0A742BE3FEB6767124C83B96CD4 /* libSocialOfficialWeChat.a */,
+				28FF1C220508C4917773C58E37EC0228 /* libSocialQQ.a */,
+				10789023E49A2B44CAB94E2A71F83F1B /* libSocialSina.a */,
+				3A43EBAC3095AA1E9E6F16AE0F7196A7 /* libSocialWeChat.a */,
+				813633207CD2E6D3CC6FFC17C92B495C /* libWeChatSDK.a */,
+				B4144AF8EE86BF1C71D050C3CF48A2B9 /* libWeiboSDK.a */,
+				4AAFC2786288E908F92E5CEAA6BD9598 /* TencentOpenAPI.framework */,
+				24ED2A54E960D6AFD07CA18D99C4DC4F /* UMCommon.framework */,
+				D826E267760ABFA4DF690E9CF6E6C86C /* UMDevice.framework */,
+				EB17CA2B45617EA3E9C386AA50B38D23 /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6F7453E26B461E67B50654B8B843BBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB310613DBE317785C4E1FD2CEC99F6 /* MJExceptionReport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CB58BE092DEFF364B2DB0B66343BBA /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				9DBE7B7BCC9031EDAC5B462718922767 /* QQSDK */,
+			);
+			name = QQ;
+			path = MJExceptionReportKit/UMengSDK/SocialLibraries/QQ;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9B3A690A7B52F67A49F2D31848B0E240 /* Development Pods */,
-				2FE445AD883B9ABD3E0241A05A5B79FD /* Frameworks */,
+				6BAE83DDA560624BCC9DEEBBCCDC0918 /* Development Pods */,
+				35E526B6E4CA6A7E89FE8C5A5B1F2259 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				F3C9A6719DC7050C04EB9717F5C665FB /* Products */,
 				4861A602DE28E4736F1E98FB34B7D069 /* Targets Support Files */,
@@ -406,6 +473,33 @@
 			path = "Target Support Files/Pods-MJExceptionReportKit_Example";
 			sourceTree = "<group>";
 		};
+		DA83888A0D14831FEDC82C57E0D38182 /* UMengSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C6665D524D799055948EDAF35A88CD82 /* Frameworks */,
+				C9CB58BE092DEFF364B2DB0B66343BBA /* QQ */,
+				E1D253D1F07D20BDE600390FE4AA127B /* Sina */,
+			);
+			name = UMengSDK;
+			sourceTree = "<group>";
+		};
+		DD268246ADDDD01A76DBC392D1DE8D66 /* BaiduMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				B1584C52CB0CAC7A78ADC2A278ADF776 /* Frameworks */,
+			);
+			name = BaiduMapKit;
+			sourceTree = "<group>";
+		};
+		E1D253D1F07D20BDE600390FE4AA127B /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				E95461DAFBBE53A4DD88E0B299E4E891 /* SinaSDK */,
+			);
+			name = Sina;
+			path = MJExceptionReportKit/UMengSDK/SocialLibraries/Sina;
+			sourceTree = "<group>";
+		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,13 +508,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F219C77423F73B80E60571947E4125D1 /* Pod */ = {
+		E95461DAFBBE53A4DD88E0B299E4E891 /* SinaSDK */ = {
 			isa = PBXGroup;
 			children = (
-				96E13E32F6CAAC201B674CA9532EF56D /* LICENSE */,
-				D47FAD93D4A1C9F9E306A7E574D5E775 /* MJExceptionReportKit.podspec */,
+				929608364614B7BFB544315134780469 /* WeiboSDK.bundle */,
 			);
-			name = Pod;
+			name = SinaSDK;
+			path = SinaSDK;
 			sourceTree = "<group>";
 		};
 		F3C9A6719DC7050C04EB9717F5C665FB /* Products */ = {
@@ -434,16 +528,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F6B42C19AACECEBFC3A14B69B74E0DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6F7453E26B461E67B50654B8B843BBD /* Frameworks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		670576EAAA0FBF9FE24D2FBBBEA7FFFE /* Headers */ = {
+		0220EE5BA45D69A6E261EEC2FD65C1C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C111EB341D30BAB96826B94D0A423FB /* MJAnimal.h in Headers */,
-				2704D1086ABC056BDD6F2640E66DF756 /* MJExceptionReportKit.h in Headers */,
-				7E4C88DAE00B3791D4AE7CC394E38531 /* MJExceptionReportKit-umbrella.h in Headers */,
+				56C9625413AA20F9FFAD3FF803906688 /* MJAnimal.h in Headers */,
+				4EC956D0AA45452C0A88F30281730E03 /* MJExceptionReportKit.h in Headers */,
+				52CE4296A02F3F9925F43A260C80662C /* MJExceptionReportKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,12 +585,12 @@
 /* Begin PBXNativeTarget section */
 		382D966507BB4CE2780EB52C7E89B804 /* MJExceptionReportKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C6B54469D1786E7C74093A87ED0F9DF /* Build configuration list for PBXNativeTarget "MJExceptionReportKit" */;
+			buildConfigurationList = F45F9B3BFE0FBB2CC5DAEDDCF757503A /* Build configuration list for PBXNativeTarget "MJExceptionReportKit" */;
 			buildPhases = (
-				670576EAAA0FBF9FE24D2FBBBEA7FFFE /* Headers */,
-				265903CF698DF36AB53DA07E324DDBEF /* Sources */,
-				1EB29E5F09C9C43F2E693160445593DE /* Frameworks */,
-				891AF08658DFD5360E3D9A887EEB3E9A /* Resources */,
+				0220EE5BA45D69A6E261EEC2FD65C1C4 /* Headers */,
+				4E684F840B054149B9BDB8EA2D9548A8 /* Sources */,
+				3AFAE48169A3545AC53DEB6D37FDD366 /* Frameworks */,
+				49AF5071C6F8361D9AEDAC82612A1DB8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -511,8 +613,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				4E5FEFF41E38E0C80346350E8D65D1D5 /* PBXTargetDependency */,
-				90253C49E28EED1FE7556256D66463B0 /* PBXTargetDependency */,
+				FD0E0E87DEE43304F4A607C90E959ABA /* PBXTargetDependency */,
+				767FC812DED94E9E01A130EAA13DDDEC /* PBXTargetDependency */,
 			);
 			name = "Pods-MJExceptionReportKit_Tests";
 			productName = Pods_MJExceptionReportKit_Tests;
@@ -531,7 +633,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E75F733BB6E902A4BA2ACD4270C1FC85 /* PBXTargetDependency */,
+				F38D6641ECA3F01B3AD2E55CFD30AD03 /* PBXTargetDependency */,
 			);
 			name = "Pods-MJExceptionReportKit_Example";
 			productName = Pods_MJExceptionReportKit_Example;
@@ -594,10 +696,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		891AF08658DFD5360E3D9A887EEB3E9A /* Resources */ = {
+		49AF5071C6F8361D9AEDAC82612A1DB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A66D4CA0FC8F3605328061BF2A45616 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				2CCE45F461B8AE18C6ABF3ADBDB87FE3 /* WeiboSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,20 +722,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		265903CF698DF36AB53DA07E324DDBEF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE53F153E23AA9448D27873761F00C5C /* MJAnimal.m in Sources */,
-				5FBE50DA0C9BC7CC0D83658DC5F47CF3 /* MJExceptionReportKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2BB9432E6DEB4251CC820B8CD4158936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				35EB7C4F7BF0E279B977680CBF44A33D /* Pods-MJExceptionReportKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E684F840B054149B9BDB8EA2D9548A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2DC56A65B0DF47E677EFCF1F755DE7 /* MJAnimal.m in Sources */,
+				2175E0E8A83ABE93FC173C09AAD7BEB4 /* MJExceptionReportKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,23 +766,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4E5FEFF41E38E0C80346350E8D65D1D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = D1E7D8AF9AD357DABC26DD56E6C51EF6 /* PBXContainerItemProxy */;
-		};
-		90253C49E28EED1FE7556256D66463B0 /* PBXTargetDependency */ = {
+		767FC812DED94E9E01A130EAA13DDDEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MJExceptionReportKit_Example";
 			target = 9057C3FA0A034FBED9108AEA31C0A877 /* Pods-MJExceptionReportKit_Example */;
-			targetProxy = DC6AE4FC7214E20C1BB4C4CD2E70BE91 /* PBXContainerItemProxy */;
+			targetProxy = 63A3880FF47DE2C72D4B20F2DF21FFDD /* PBXContainerItemProxy */;
 		};
-		E75F733BB6E902A4BA2ACD4270C1FC85 /* PBXTargetDependency */ = {
+		F38D6641ECA3F01B3AD2E55CFD30AD03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJExceptionReportKit;
 			target = 382D966507BB4CE2780EB52C7E89B804 /* MJExceptionReportKit */;
-			targetProxy = 7369D1A138D9DCE4B2E0098D7B10EA7F /* PBXContainerItemProxy */;
+			targetProxy = AB54E588B8B8BDFD200BAE60B3E2E779 /* PBXContainerItemProxy */;
+		};
+		FD0E0E87DEE43304F4A607C90E959ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 6D11A9EF699D9ECD28DC47740E563F9A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -774,69 +878,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2D3F7A2EB4F8636A543941A370857D3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8928E7B56871EAB2440B1BF7DC0029D0 /* MJExceptionReportKit.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit.modulemap";
-				PRODUCT_MODULE_NAME = MJExceptionReportKit;
-				PRODUCT_NAME = MJExceptionReportKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3D8B21710DAF5E7D217E07E5CA12987F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E691F6F65A04B3BCC9D21DE99B35E93 /* MJExceptionReportKit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit.modulemap";
-				PRODUCT_MODULE_NAME = MJExceptionReportKit;
-				PRODUCT_NAME = MJExceptionReportKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1006,6 +1047,38 @@
 			};
 			name = Debug;
 		};
+		D4F31A7FE510AC802F28B9E03279E215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082115D554B83D007B5846AFBC5852DA /* MJExceptionReportKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit.modulemap";
+				PRODUCT_MODULE_NAME = MJExceptionReportKit;
+				PRODUCT_NAME = MJExceptionReportKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E323999A28F1F9ECABD731D48C5A2288 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40B53DAAA94D3758E6C77A0AC6EBECE6 /* Pods-MJExceptionReportKit_Tests.debug.xcconfig */;
@@ -1034,6 +1107,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE724497E6C9D7E7D350D21F1B00CB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DEA0FBECAF01AF7CAB917752B3DD74 /* MJExceptionReportKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/MJExceptionReportKit/MJExceptionReportKit.modulemap";
+				PRODUCT_MODULE_NAME = MJExceptionReportKit;
+				PRODUCT_NAME = MJExceptionReportKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1096,15 +1200,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C6B54469D1786E7C74093A87ED0F9DF /* Build configuration list for PBXNativeTarget "MJExceptionReportKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D3F7A2EB4F8636A543941A370857D3D /* Debug */,
-				3D8B21710DAF5E7D217E07E5CA12987F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		B12F5F89EA72AB06AC5137307F29D4E8 /* Build configuration list for PBXNativeTarget "Pods-MJExceptionReportKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1119,6 +1214,15 @@
 			buildConfigurations = (
 				68CB8133567AC4990274AF114736B04B /* Debug */,
 				2817E1691155587E2ACEDA2215395EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45F9B3BFE0FBB2CC5DAEDDCF757503A /* Build configuration list for PBXNativeTarget "MJExceptionReportKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE724497E6C9D7E7D350D21F1B00CB10 /* Debug */,
+				D4F31A7FE510AC802F28B9E03279E215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

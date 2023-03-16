@@ -1,7 +1,12 @@
+# 将framework 转化成模块形式 module
 framework module UMCommon {
+  # 在pod...umbrella.h 中导入头文件
   umbrella header "UMCommon.h"
+  # 导出
   export *
+  # 链接依赖的系统静态库
   link "c++"
   link "sqlite3"
   link "z"
 }
+# 文件结束符

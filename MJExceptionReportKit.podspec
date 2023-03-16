@@ -39,14 +39,16 @@ TODO: Add long description of the pod here.
     # 添加资源文件
     #ss.resourc = 'MJExceptionReportKit/Classes/Core/**/*'
     # 添加依赖第三方的framework
-#    ss.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
+    #ss.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
+    #依赖的模块
+    #ss.dependecy 'MJExceptionReportKit/UMengSDK'
   end
   
   s.subspec 'BaiduMapKit' do |ss|
       #源文件
 #      ss.source_files = 'MJExceptionReportKit/BaiduMapKit/*.framework/Headers/*.h'
       #公开的头文件
-#      ss.public_header_files = 'LPThirdPlatformKit/BaiduMapKit/*.framework/Headers/*.h'
+#      ss.public_header_files = 'MJExceptionReportKit/BaiduMapKit/*.framework/Headers/*.h'
       #依赖的系统库
       ss.frameworks =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
       #依赖的系统静态库
@@ -56,7 +58,7 @@ TODO: Add long description of the pod here.
       #依赖的第三方静态库
       ss.vendored_libraries = 'MJExceptionReportKit/BaiduMapKit/thirdlibs/*.a'
       #预加载的第三方库路径
-#      ss.preserve_paths = 'LPThirdPlatformKit/BaiduMapKit/**/*.{framework,a}'
+#      ss.preserve_paths = 'MJExceptionReportKit/BaiduMapKit/**/*.{framework,a}'
       # Build Settings 修改设置中的 Runpath Search Paths
       ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/MJExceptionReportKit/BaiduMapKit/' }
   end
@@ -71,10 +73,10 @@ TODO: Add long description of the pod here.
   #swift工程（组件）import .{framework,a} 时，不需要桥接文件，能直接以模块的形式引入，如：系统UIKit
   s.prepare_command = <<-EOF
       # 创建UMShare Module
-      rm -rf LPThirdPlatformKit/UMengSDK/UMShare.framework/Modules
-      mkdir LPThirdPlatformKit/UMengSDK/UMShare.framework/Modules
-      touch LPThirdPlatformKit/UMengSDK/UMShare.framework//Modules/module.modulemap
-      cat <<-EOF > LPThirdPlatformKit/UMengSDK/UMShare.framework//Modules/module.modulemap
+      rm -rf MJExceptionReportKit/UMengSDK/UMShare.framework/Modules
+      mkdir MJExceptionReportKit/UMengSDK/UMShare.framework/Modules
+      touch MJExceptionReportKit/UMengSDK/UMShare.framework//Modules/module.modulemap
+      cat <<-EOF > MJExceptionReportKit/UMengSDK/UMShare.framework//Modules/module.modulemap
       framework module UMShare {
         umbrella header "UMShare.h"
         export *
@@ -86,13 +88,13 @@ TODO: Add long description of the pod here.
 
       # 创建UMCommon Module
       # 先删除路径下 Modules 文件夹
-      rm -rf LPThirdPlatformKit/UMengSDK/UMCommon.framework/Modules
+      rm -rf MJExceptionReportKit/UMengSDK/UMCommon.framework/Modules
       # 再创建路径下 Modules 文件夹
-      mkdir LPThirdPlatformKit/UMengSDK/UMCommon.framework/Modules
+      mkdir MJExceptionReportKit/UMengSDK/UMCommon.framework/Modules
       # 再生成 module.modulemap 文件
-      touch LPThirdPlatformKit/UMengSDK/UMCommon.framework//Modules/module.modulemap
+      touch MJExceptionReportKit/UMengSDK/UMCommon.framework//Modules/module.modulemap
       #
-      cat <<-EOF > LPThirdPlatformKit/UMengSDK/UMCommon.framework//Modules/module.modulemap
+      cat <<-EOF > MJExceptionReportKit/UMengSDK/UMCommon.framework//Modules/module.modulemap
       # 将framework 转化成模块形式 module
       framework module UMCommon {
         # 在pod...umbrella.h 中导入头文件
@@ -108,12 +110,6 @@ TODO: Add long description of the pod here.
       \EOF
 
     EOF
-    
-    s.subspec 'Share' do |ss|
-      ss.source_files = 'LPThirdPlatformKit/Classes/Share/*'
-      #依赖的模块
-      #ss.dependecy 'LPThirdPlatformKit/UMengSDK'
-    end
     
     s.subspec 'UMengSDK' do |ss|
       
@@ -132,23 +128,23 @@ TODO: Add long description of the pod here.
       'z']
       #资源文件
       ss.resources = [
-      'LPThirdPlatformKit/UMengSDK/SocialLibraries/**/*.bundle'
+      'MJExceptionReportKit/UMengSDK/SocialLibraries/**/*.bundle'
       ]
       #依赖的第三方库
       ss.vendored_frameworks = [
-      'LPThirdPlatformKit/UMengSDK/**/*.framework',
-#      'LPThirdPlatformKit/UMengSDK/SocialLibraries/**/*.framework',
+      'MJExceptionReportKit/UMengSDK/**/*.framework',
+#      'MJExceptionReportKit/UMengSDK/SocialLibraries/**/*.framework',
       ]
       #依赖的第三方静态库
       ss.vendored_libraries = [
-      'LPThirdPlatformKit/UMengSDK/SocialLibraries/**/*.a'
+      'MJExceptionReportKit/UMengSDK/SocialLibraries/**/*.a'
       ]
       
-#      ss.dependency 'LPThirdPlatformKit/Share'
+#      ss.dependency 'MJExceptionReportKit/Share'
       #预加载的第三方库路径
-      #ss.preserve_paths = 'LPThirdPlatformKit/UMengSDK/**/*.{framework,a}'
+      #ss.preserve_paths = 'MJExceptionReportKit/UMengSDK/**/*.{framework,a}'
       # Build Settings 修改设置中的 Runpath Search Paths
-      #ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/LPThirdPlatformKit/UMengSDK/' }
+      #ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/MJExceptionReportKit/UMengSDK/' }
   end
     
 end
