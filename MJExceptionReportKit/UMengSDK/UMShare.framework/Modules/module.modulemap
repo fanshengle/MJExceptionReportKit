@@ -1,0 +1,7 @@
+framework module UMShare {
+  umbrella header "UMShare.h"
+  export *
+  link "c++"
+  link "sqlite3"
+  link "z"
+}
