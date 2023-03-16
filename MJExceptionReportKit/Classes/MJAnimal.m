@@ -9,6 +9,6 @@
 
 @implementation MJAnimal
 - (void)sleep{
-    print(@"我要睡觉了");
+    printf(@"我要睡觉了");
 }
 @end
