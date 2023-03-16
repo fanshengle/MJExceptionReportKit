@@ -1,9 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExceptionReportKit" "${PODS_ROOT}/../../MJExceptionReportKit/Products"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExceptionReportKit" "${PODS_ROOT}/../../MJExceptionReportKit/BaiduMapKit" "${PODS_ROOT}/../../MJExceptionReportKit/Products"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJExceptionReportKit/MJExceptionReportKit.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "MJExceptionReportKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../MJExceptionReportKit/BaiduMapKit/thirdlibs"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3.0" -l"z" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "MJExceptionReportKit" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

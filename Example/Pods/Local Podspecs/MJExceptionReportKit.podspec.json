@@ -25,6 +25,28 @@
       "source_files": "MJExceptionReportKit/Classes/Core/**/*"
     },
     {
+      "name": "BaiduMapKit",
+      "frameworks": [
+        "CoreLocation",
+        "QuartzCore",
+        "OpenGLES",
+        "SystemConfiguration",
+        "CoreGraphics",
+        "Security",
+        "CoreTelephony"
+      ],
+      "libraries": [
+        "sqlite3.0",
+        "c++",
+        "z"
+      ],
+      "vendored_frameworks": "MJExceptionReportKit/BaiduMapKit/*.framework",
+      "vendored_libraries": "MJExceptionReportKit/BaiduMapKit/thirdlibs/*.a",
+      "pod_target_xcconfig": {
+        "LD_RUNPATH_SEARCH_PATHS": "$(PODS_ROOT)/MJExceptionReportKit/BaiduMapKit/"
+      }
+    },
+    {
       "name": "Products",
       "vendored_frameworks": "MJExceptionReportKit/Products/MJExceptionReport.framework"
     }

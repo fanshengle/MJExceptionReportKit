@@ -5,8 +5,10 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - MJExceptionReportKit (0.1.0):
+    - MJExceptionReportKit/BaiduMapKit (= 0.1.0)
     - MJExceptionReportKit/Core (= 0.1.0)
     - MJExceptionReportKit/Products (= 0.1.0)
+  - MJExceptionReportKit/BaiduMapKit (0.1.0)
   - MJExceptionReportKit/Core (0.1.0)
   - MJExceptionReportKit/Products (0.1.0)
 
@@ -24,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MJExceptionReportKit: 228c1bc53b2fddbd0a164566f2d1d2b7514b2a8a
+  MJExceptionReportKit: e46166e9541926ee702a6d243606cddf286eeb87
 
 PODFILE CHECKSUM: cebc68e62ac16ba8ad99fbf33f2af259237b84b8
 
