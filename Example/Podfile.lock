@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MJExceptionReportKit (0.1.0):
+    - MJExceptionReportKit/Core (= 0.1.0)
+    - MJExceptionReportKit/Products (= 0.1.0)
+  - MJExceptionReportKit/Core (0.1.0)
+  - MJExceptionReportKit/Products (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MJExceptionReportKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MJExceptionReportKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MJExceptionReportKit: 228c1bc53b2fddbd0a164566f2d1d2b7514b2a8a
+
+PODFILE CHECKSUM: cebc68e62ac16ba8ad99fbf33f2af259237b84b8
+
+COCOAPODS: 1.11.3

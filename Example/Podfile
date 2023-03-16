@@ -1,9 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'MJExceptionReportKit_Example' do
   pod 'MJExceptionReportKit', :path => '../'
+#  pod 'MJExceptionReportKit_Source', :path => '../'
 
   target 'MJExceptionReportKit_Tests' do
     inherit! :search_paths

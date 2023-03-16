@@ -1,0 +1,6 @@
+framework module Pods_MJExceptionReportKit_Example {
+  umbrella header "Pods-MJExceptionReportKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "MJExceptionReportKit",
+  "version": "0.1.0",
+  "summary": "A short description of MJExceptionReportKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanshengle/MJExceptionReportKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanshengle": "1316838962@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fanshengle/MJExceptionReportKit.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "MJExceptionReportKit/Classes/**/*",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "MJExceptionReportKit/Classes/Core/**/*"
+    },
+    {
+      "name": "Products",
+      "vendored_frameworks": "MJExceptionReportKit/Products/MJExceptionReport.framework"
+    }
+  ]
+}

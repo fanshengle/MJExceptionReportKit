@@ -1,0 +1,6 @@
+framework module MJExceptionReportKit {
+  umbrella header "MJExceptionReportKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

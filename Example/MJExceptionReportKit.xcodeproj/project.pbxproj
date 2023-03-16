@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B8AFAA8329C2F973006E1212 /* Static Framework (MJExteptionExport project) */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B8AFAA8429C2F974006E1212 /* Build configuration list for PBXAggregateTarget "Static Framework (MJExteptionExport project)" */;
+			buildPhases = (
+				B8AFAA8729C2F993006E1212 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Static Framework (MJExteptionExport project)";
+			productName = "Static Framework (MJExteptionExport project)";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		470546EF22E0FDA80997A9EE /* Pods_MJExceptionReportKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24974D78EBB93166E73C646A /* Pods_MJExceptionReportKit_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +38,13 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		866D09505430504E8D883428 /* Pods_MJExceptionReportKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B2B3353ECFD34D965C1D /* Pods_MJExceptionReportKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B8AFAA6129C2F83A006E1212 /* MJExceptionReport.docc in Sources */ = {isa = PBXBuildFile; fileRef = B8AFAA6029C2F83A006E1212 /* MJExceptionReport.docc */; };
+		B8AFAA6729C2F83A006E1212 /* MJExceptionReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8AFAA5D29C2F839006E1212 /* MJExceptionReport.framework */; };
+		B8AFAA6E29C2F83B006E1212 /* MJExceptionReportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFAA6D29C2F83B006E1212 /* MJExceptionReportTests.m */; };
+		B8AFAA6F29C2F83B006E1212 /* MJExceptionReport.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AFAA5F29C2F83A006E1212 /* MJExceptionReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8AFAA7429C2F83B006E1212 /* MJExceptionReport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B8AFAA5D29C2F839006E1212 /* MJExceptionReport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B8AFAA8129C2F89D006E1212 /* MJReportManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AFAA7F29C2F89C006E1212 /* MJReportManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8AFAA8229C2F89D006E1212 /* MJReportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFAA8029C2F89C006E1212 /* MJReportManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +55,46 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = MJExceptionReportKit;
 		};
+		B8AFAA6829C2F83A006E1212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AFAA5C29C2F839006E1212;
+			remoteInfo = MJExceptionReport;
+		};
+		B8AFAA6A29C2F83B006E1212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = MJExceptionReportKit_Example;
+		};
+		B8AFAA7029C2F83B006E1212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8AFAA5C29C2F839006E1212;
+			remoteInfo = MJExceptionReport;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8AFAA7329C2F83B006E1212 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B8AFAA7429C2F83B006E1212 /* MJExceptionReport.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		24974D78EBB93166E73C646A /* Pods_MJExceptionReportKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJExceptionReportKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		370BAC5D50FD838B3B765450 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		370BAC5D50FD838B3B765450 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MJExceptionReportKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJExceptionReportKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,15 +114,22 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		651A58CA08432F7A4DE8DA99 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExceptionReportKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MJExceptionReportKit_Example/Pods-MJExceptionReportKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84722C8368D5D4FD63191FA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		84722C8368D5D4FD63191FA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		85CCF1649E90032B8439A3AA /* Pods-MJExceptionReportKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExceptionReportKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MJExceptionReportKit_Tests/Pods-MJExceptionReportKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C9231FD3043B410DF2C9ED5 /* Pods-MJExceptionReportKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExceptionReportKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MJExceptionReportKit_Tests/Pods-MJExceptionReportKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8EF7B2B3353ECFD34D965C1D /* Pods_MJExceptionReportKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJExceptionReportKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D7E02281D831659F931D10 /* MJExceptionReportKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MJExceptionReportKit.podspec; path = ../MJExceptionReportKit.podspec; sourceTree = "<group>"; };
-		ED6795134EE07A9F051A8039 /* Pods-MJExceptionReportKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExceptionReportKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MJExceptionReportKit_Example/Pods-MJExceptionReportKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B8AFAA5D29C2F839006E1212 /* MJExceptionReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExceptionReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AFAA5F29C2F83A006E1212 /* MJExceptionReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExceptionReport.h; sourceTree = "<group>"; };
+		B8AFAA6029C2F83A006E1212 /* MJExceptionReport.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MJExceptionReport.docc; sourceTree = "<group>"; };
+		B8AFAA6629C2F83A006E1212 /* MJExceptionReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJExceptionReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AFAA6D29C2F83B006E1212 /* MJExceptionReportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExceptionReportTests.m; sourceTree = "<group>"; };
+		B8AFAA7F29C2F89C006E1212 /* MJReportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJReportManager.h; sourceTree = "<group>"; };
+		B8AFAA8029C2F89C006E1212 /* MJReportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJReportManager.m; sourceTree = "<group>"; };
+		C1D7E02281D831659F931D10 /* MJExceptionReportKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJExceptionReportKit.podspec; path = ../MJExceptionReportKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D511D779746334BEA14BB3F9 /* Pods-MJExceptionReportKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExceptionReportKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MJExceptionReportKit_Example/Pods-MJExceptionReportKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FC37FB84A076BC3B58507342 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExceptionReportKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MJExceptionReportKit_Example/Pods-MJExceptionReportKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,18 +155,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8AFAA5A29C2F839006E1212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AFAA6329C2F83A006E1212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AFAA6729C2F83A006E1212 /* MJExceptionReport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3F9E63A090BB66D63C7F68EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				651A58CA08432F7A4DE8DA99 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */,
-				ED6795134EE07A9F051A8039 /* Pods-MJExceptionReportKit_Example.release.xcconfig */,
 				85CCF1649E90032B8439A3AA /* Pods-MJExceptionReportKit_Tests.debug.xcconfig */,
 				8C9231FD3043B410DF2C9ED5 /* Pods-MJExceptionReportKit_Tests.release.xcconfig */,
+				FC37FB84A076BC3B58507342 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */,
+				D511D779746334BEA14BB3F9 /* Pods-MJExceptionReportKit_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -113,6 +190,8 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for MJExceptionReportKit */,
 				6003F5B5195388D20070C39A /* Tests */,
+				B8AFAA5E29C2F83A006E1212 /* MJExceptionReport */,
+				B8AFAA6C29C2F83B006E1212 /* MJExceptionReportTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				3F9E63A090BB66D63C7F68EA /* Pods */,
@@ -124,6 +203,8 @@
 			children = (
 				6003F58A195388D20070C39A /* MJExceptionReportKit_Example.app */,
 				6003F5AE195388D20070C39A /* MJExceptionReportKit_Tests.xctest */,
+				B8AFAA5D29C2F839006E1212 /* MJExceptionReport.framework */,
+				B8AFAA6629C2F83A006E1212 /* MJExceptionReportTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,7 +278,38 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		B8AFAA5E29C2F83A006E1212 /* MJExceptionReport */ = {
+			isa = PBXGroup;
+			children = (
+				B8AFAA7F29C2F89C006E1212 /* MJReportManager.h */,
+				B8AFAA8029C2F89C006E1212 /* MJReportManager.m */,
+				B8AFAA5F29C2F83A006E1212 /* MJExceptionReport.h */,
+				B8AFAA6029C2F83A006E1212 /* MJExceptionReport.docc */,
+			);
+			path = MJExceptionReport;
+			sourceTree = "<group>";
+		};
+		B8AFAA6C29C2F83B006E1212 /* MJExceptionReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8AFAA6D29C2F83B006E1212 /* MJExceptionReportTests.m */,
+			);
+			path = MJExceptionReportTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8AFAA5829C2F839006E1212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AFAA6F29C2F83B006E1212 /* MJExceptionReport.h in Headers */,
+				B8AFAA8129C2F89D006E1212 /* MJReportManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* MJExceptionReportKit_Example */ = {
@@ -209,10 +321,12 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				E7EBFECCD021C8A6487CD263 /* [CP] Embed Pods Frameworks */,
+				B8AFAA7329C2F83B006E1212 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B8AFAA7129C2F83B006E1212 /* PBXTargetDependency */,
 			);
 			name = MJExceptionReportKit_Example;
 			productName = MJExceptionReportKit;
@@ -239,6 +353,43 @@
 			productReference = 6003F5AE195388D20070C39A /* MJExceptionReportKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B8AFAA5C29C2F839006E1212 /* MJExceptionReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AFAA7529C2F83B006E1212 /* Build configuration list for PBXNativeTarget "MJExceptionReport" */;
+			buildPhases = (
+				B8AFAA5829C2F839006E1212 /* Headers */,
+				B8AFAA5929C2F839006E1212 /* Sources */,
+				B8AFAA5A29C2F839006E1212 /* Frameworks */,
+				B8AFAA5B29C2F839006E1212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExceptionReport;
+			productName = MJExceptionReport;
+			productReference = B8AFAA5D29C2F839006E1212 /* MJExceptionReport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8AFAA6529C2F83A006E1212 /* MJExceptionReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8AFAA7829C2F83B006E1212 /* Build configuration list for PBXNativeTarget "MJExceptionReportTests" */;
+			buildPhases = (
+				B8AFAA6229C2F83A006E1212 /* Sources */,
+				B8AFAA6329C2F83A006E1212 /* Frameworks */,
+				B8AFAA6429C2F83A006E1212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8AFAA6929C2F83A006E1212 /* PBXTargetDependency */,
+				B8AFAA6B29C2F83B006E1212 /* PBXTargetDependency */,
+			);
+			name = MJExceptionReportTests;
+			productName = MJExceptionReportTests;
+			productReference = B8AFAA6629C2F83A006E1212 /* MJExceptionReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -252,6 +403,21 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					B8AFAA5C29C2F839006E1212 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					B8AFAA6529C2F83A006E1212 = {
+						CreatedOnToolsVersion = 14.2;
+						DevelopmentTeam = 9U2KRZU6GT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					B8AFAA8329C2F973006E1212 = {
+						CreatedOnToolsVersion = 14.2;
+						DevelopmentTeam = 9U2KRZU6GT;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MJExceptionReportKit" */;
@@ -259,6 +425,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,6 +436,9 @@
 			targets = (
 				6003F589195388D20070C39A /* MJExceptionReportKit_Example */,
 				6003F5AD195388D20070C39A /* MJExceptionReportKit_Tests */,
+				B8AFAA5C29C2F839006E1212 /* MJExceptionReport */,
+				B8AFAA6529C2F83A006E1212 /* MJExceptionReportTests */,
+				B8AFAA8329C2F973006E1212 /* Static Framework (MJExteptionExport project) */,
 			);
 		};
 /* End PBXProject section */
@@ -290,6 +460,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AFAA5B29C2F839006E1212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AFAA6429C2F83A006E1212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +542,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B8AFAA8729C2F993006E1212 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/sh\n#要build的target名\nTARGET_NAME=MJExceptionReport\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/../MJExceptionReportKit/Products\"\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n";
+		};
 		E7EBFECCD021C8A6487CD263 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +598,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8AFAA5929C2F839006E1212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AFAA8229C2F89D006E1212 /* MJReportManager.m in Sources */,
+				B8AFAA6129C2F83A006E1212 /* MJExceptionReport.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AFAA6229C2F83A006E1212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AFAA6E29C2F83B006E1212 /* MJExceptionReportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -404,6 +622,21 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* MJExceptionReportKit_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		B8AFAA6929C2F83A006E1212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8AFAA5C29C2F839006E1212 /* MJExceptionReport */;
+			targetProxy = B8AFAA6829C2F83A006E1212 /* PBXContainerItemProxy */;
+		};
+		B8AFAA6B29C2F83B006E1212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* MJExceptionReportKit_Example */;
+			targetProxy = B8AFAA6A29C2F83B006E1212 /* PBXContainerItemProxy */;
+		};
+		B8AFAA7129C2F83B006E1212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8AFAA5C29C2F839006E1212 /* MJExceptionReport */;
+			targetProxy = B8AFAA7029C2F83B006E1212 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -510,7 +743,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 651A58CA08432F7A4DE8DA99 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */;
+			baseConfigurationReference = FC37FB84A076BC3B58507342 /* Pods-MJExceptionReportKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -526,7 +759,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED6795134EE07A9F051A8039 /* Pods-MJExceptionReportKit_Example.release.xcconfig */;
+			baseConfigurationReference = D511D779746334BEA14BB3F9 /* Pods-MJExceptionReportKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -586,6 +819,212 @@
 			};
 			name = Release;
 		};
+		B8AFAA7629C2F83B006E1212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 fanshengle. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MJExceptionReport;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8AFAA7729C2F83B006E1212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 fanshengle. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MJExceptionReport;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8AFAA7929C2F83B006E1212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MJExceptionReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJExceptionReportKit_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MJExceptionReportKit_Example";
+			};
+			name = Debug;
+		};
+		B8AFAA7A29C2F83B006E1212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.MJExceptionReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MJExceptionReportKit_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MJExceptionReportKit_Example";
+			};
+			name = Release;
+		};
+		B8AFAA8529C2F974006E1212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8AFAA8629C2F974006E1212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,6 +1051,33 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AFAA7529C2F83B006E1212 /* Build configuration list for PBXNativeTarget "MJExceptionReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AFAA7629C2F83B006E1212 /* Debug */,
+				B8AFAA7729C2F83B006E1212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AFAA7829C2F83B006E1212 /* Build configuration list for PBXNativeTarget "MJExceptionReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AFAA7929C2F83B006E1212 /* Debug */,
+				B8AFAA7A29C2F83B006E1212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8AFAA8429C2F974006E1212 /* Build configuration list for PBXAggregateTarget "Static Framework (MJExteptionExport project)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AFAA8529C2F974006E1212 /* Debug */,
+				B8AFAA8629C2F974006E1212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

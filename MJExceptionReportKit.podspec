@@ -26,17 +26,42 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fanshengle' => '1316838962@qq.com' }
   s.source           = { :git => 'https://github.com/fanshengle/MJExceptionReportKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
 
   s.source_files = 'MJExceptionReportKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MJExceptionReportKit' => ['MJExceptionReportKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '11.0' 
+#  s.static_framework = true
+#  s.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
+  
+  s.subspec 'Core' do |ss|
+    # 源文件
+    ss.source_files = 'MJExceptionReportKit/Classes/Core/**/*'
+    # 添加资源文件
+    #ss.resourc = 'MJExceptionReportKit/Classes/Core/**/*'
+    # 添加依赖第三方的framework
+#    ss.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
+  end
+  
+#  s.subspec 'BaiduMapKit' do |ss|
+#      #源文件
+##      ss.source_files = 'MJExceptionReportKit/BaiduMapKit/*.framework/Headers/*.h'
+#      #公开的头文件
+##      ss.public_header_files = 'LPThirdPlatformKit/BaiduMapKit/*.framework/Headers/*.h'
+#      #依赖的系统库
+#      ss.frameworks =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
+#      #依赖的系统静态库
+#      ss.libraries =  'sqlite3.0', 'c++', 'z'
+#      #依赖的第三方库
+#      ss.vendored_frameworks = 'MJExceptionReportKit/BaiduMapKit/*.framework'
+#      #依赖的第三方静态库
+#      ss.vendored_libraries = 'MJExceptionReportKit/BaiduMapKit/thirdlibs/*.a'
+#      #预加载的第三方库路径
+##      ss.preserve_paths = 'LPThirdPlatformKit/BaiduMapKit/**/*.{framework,a}'
+#      # Build Settings 修改设置中的 Runpath Search Paths
+#      ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/MJExceptionReportKit/BaiduMapKit/' }
+#  end
+  
+  s.subspec 'Products' do |ss|
+    ss.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
+  end
 end
