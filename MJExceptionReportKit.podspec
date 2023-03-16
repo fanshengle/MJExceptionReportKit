@@ -42,24 +42,24 @@ TODO: Add long description of the pod here.
 #    ss.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
   end
   
-#  s.subspec 'BaiduMapKit' do |ss|
-#      #源文件
-##      ss.source_files = 'MJExceptionReportKit/BaiduMapKit/*.framework/Headers/*.h'
-#      #公开的头文件
-##      ss.public_header_files = 'LPThirdPlatformKit/BaiduMapKit/*.framework/Headers/*.h'
-#      #依赖的系统库
-#      ss.frameworks =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
-#      #依赖的系统静态库
-#      ss.libraries =  'sqlite3.0', 'c++', 'z'
-#      #依赖的第三方库
-#      ss.vendored_frameworks = 'MJExceptionReportKit/BaiduMapKit/*.framework'
-#      #依赖的第三方静态库
-#      ss.vendored_libraries = 'MJExceptionReportKit/BaiduMapKit/thirdlibs/*.a'
-#      #预加载的第三方库路径
-##      ss.preserve_paths = 'LPThirdPlatformKit/BaiduMapKit/**/*.{framework,a}'
-#      # Build Settings 修改设置中的 Runpath Search Paths
-#      ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/MJExceptionReportKit/BaiduMapKit/' }
-#  end
+  s.subspec 'BaiduMapKit' do |ss|
+      #源文件
+#      ss.source_files = 'MJExceptionReportKit/BaiduMapKit/*.framework/Headers/*.h'
+      #公开的头文件
+#      ss.public_header_files = 'LPThirdPlatformKit/BaiduMapKit/*.framework/Headers/*.h'
+      #依赖的系统库
+      ss.frameworks =  'CoreLocation', 'QuartzCore', 'OpenGLES', 'SystemConfiguration', 'CoreGraphics', 'Security', 'CoreTelephony'
+      #依赖的系统静态库
+      ss.libraries =  'sqlite3.0', 'c++', 'z'
+      #依赖的第三方库
+      ss.vendored_frameworks = 'MJExceptionReportKit/BaiduMapKit/*.framework'
+      #依赖的第三方静态库
+      ss.vendored_libraries = 'MJExceptionReportKit/BaiduMapKit/thirdlibs/*.a'
+      #预加载的第三方库路径
+#      ss.preserve_paths = 'LPThirdPlatformKit/BaiduMapKit/**/*.{framework,a}'
+      # Build Settings 修改设置中的 Runpath Search Paths
+      ss.pod_target_xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/MJExceptionReportKit/BaiduMapKit/' }
+  end
   
   s.subspec 'Products' do |ss|
     ss.vendored_framework = 'MJExceptionReportKit/Products/MJExceptionReport.framework'
